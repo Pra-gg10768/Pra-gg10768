@@ -74,7 +74,7 @@
 📧 [pragnyansatapathy@gmail.com](mailto:pragnyansatapathy@gmail.com)  
 📍 Bengaluru, India  
 📞 +91-7829465164  
-🔗 [LinkedIn](https://www.linkedin.com/in/) | [Portfolio](#)
+🔗 [LinkedIn](https://www.linkedin.com/in/pragnyan)
 
 ---
 

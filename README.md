@@ -1,4 +1,4 @@
-
+<img src="github-header-image.png" alt="Header Image" />
 <h1 align="center">Hey there 👋, I'm <span style="color:#00BFFF;">Pragnyan Satapathy</span></h1>
 <h3 align="center">🚀 Tech Enthusiast | 🤖 AI & IoT Dev | 🌐 Full-Stack Engineer | 📍 Bengaluru, India</h3>
 

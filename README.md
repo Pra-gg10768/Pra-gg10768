@@ -1,5 +1,12 @@
-<img src="github-header-image.png" alt="Header Image" />
-<h1 align="center">Hey there 👋, I'm <span style="color:#00BFFF;">Pragnyan Satapathy</span></h1>
+<!-- Header Section -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d6efd&height=200&section=header&text=Pragnyan%20Satapathy&fontSize=40&fontAlignY=35&desc=AI%20%7C%20IoT%20%7C%20Web%20Dev%20%7C%20Enthusiast&descAlignY=60&animation=fadeIn" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/character/dev-girl.png" width="150px" />
+</p>
+
 <h3 align="center">🚀 Tech Enthusiast | 🤖 AI & IoT Dev | 🌐 Full-Stack Engineer | 📍 Bengaluru, India</h3>
 
 <p align="center">
@@ -7,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=pragnyansatapathy&style=flat-square&color=brightgreen" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Pra-gg10768&style=flat-square&color=brightgreen" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/Pra-gg10768?label=Follow&style=social" alt="GitHub followers" />
   <img src="https://img.shields.io/github/stars/Pra-gg10768?style=social" alt="GitHub Stars" />
 </p>
@@ -25,35 +32,26 @@
 
 ## 🚀 Tech Stack
 
-<table>
-  <tr>
-    <td><img src="https://skillicons.dev/icons?i=python,java,html,css,js" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,scikit-learn" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://skillicons.dev/icons?i=arduino,raspberrypi,docker,linux" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,vscode,androidstudio" /></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,html,css,js" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,scikit-learn" />
+  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,docker,linux" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,vscode,androidstudio" />
+</p>
 
 ---
 
 ## 📌 Featured Projects
 
-🎯 **SignSpeak-AI**  
+### 🎯 SignSpeak-AI  
 > Sign Language to Text/Speech using CNN, LSTM, OpenCV  
-> Future-ready with multilingual & voice-to-sign translation  
+> 🚀 Multilingual support & voice-to-sign in pipeline  
 
-🩺 **CareCast – AI Health Predictor**  
-> Disease prediction using personal health data and ML  
-> Offers early alerts, reports & recommendations  
+### 🩺 CareCast – AI Health Predictor  
+> ML-based health diagnostics with early alerts and personal insights  
 
-🚦 **Smart Traffic Management**  
-> Edge AI + Real-time signal timing + City dashboard analytics  
+### 🚦 Smart Traffic Management  
+> Edge AI traffic analysis + real-time signal control + cloud dashboards  
 
 📄 **Published**: [Queue Detection System (IJSREM)](https://www.doi.org/10.55041/IJSREM40695)
 
@@ -61,11 +59,23 @@
 
 ## 🏆 Achievements
 
-- 🥇 Smart India Hackathon 2023 (Internal Winner)  
-- 🥈 SCIMIT 2024 – Runner-up  
-- 🥉 Prajwalan 2k24 Hackathon – 3rd Place  
-- 🏆 InnovateX @ IISc – Finalist  
-- 🏸 KVS Nationals – Badminton Player
+🏅 Smart India Hackathon 2023 (Internal Winner)  
+🥈 SCIMIT 2024 – Runner-up  
+🥉 Prajwalan 2k24 Hackathon – 3rd Place  
+🏆 InnovateX @ IISc – Finalist  
+🏸 KVS Nationals – Badminton Player  
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Pra-gg10768&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="150px" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pra-gg10768&theme=tokyonight&hide_border=true" height="150px" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pra-gg10768&layout=compact&theme=tokyonight&langs_count=8&hide_border=true" />
+</p>
 
 ---
 
@@ -74,7 +84,7 @@
 📧 [pragnyansatapathy@gmail.com](mailto:pragnyansatapathy@gmail.com)  
 📍 Bengaluru, India  
 📞 +91-7829465164  
-🔗 [LinkedIn](https://www.linkedin.com/in/pragnyan)
+🔗 [LinkedIn](https://www.linkedin.com/in/pragnyan)  
 
 ---
 
@@ -84,4 +94,9 @@
   ✨ _“Passionate about learning, building, and creating tech that matters.”_ ✨
   <br>
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</p>
+
+<!-- Footer Wave -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d6efd&height=120&section=footer"/>
 </p>

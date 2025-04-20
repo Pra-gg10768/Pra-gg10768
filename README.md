@@ -52,6 +52,7 @@
 🩺 **CareCast – AI Health Predictor**  
 > 🧠 Uses health history & ML to predict disease risk  
 > 🚑 Delivers proactive alerts and lifestyle suggestions
+> [https://carecast-predictions-1.onrender.com](https://care-cast-predictions.vercel.app/)
 
 🚦 **Smart Traffic Management System**  
 > ⚙️ Edge AI with dynamic signal optimization  

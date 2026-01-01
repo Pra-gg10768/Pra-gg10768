@@ -1,10 +1,12 @@
 <img src="github-header-image.png" alt="GitHub Header - Pragnyan Satapathy" width="100%" />
 
 <h1 align="center">Hey there 👋, I'm <span style="color:#00BFFF;">Pragnyan Satapathy</span></h1>
-<h3 align="center">🚀 Tech Enthusiast | 🤖 AI & IoT Dev | 🌐 Full-Stack Engineer | 📍 Bengaluru, India</h3>
+<h3 align="center">
+🚀 AI & ML Research Aspirant | 🤖 Intelligent Systems & IoT | 🌐 Full-Stack Engineer | 📍 Bengaluru, India
+</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=435&lines=AI%20%7C%20IoT%20%7C%20Web+Dev+%7C+Robotics;Tech+that+makes+a+difference!;Let's+innovate+together!" alt="Dynamic Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Machine+Learning+%7C+Cybersecurity+%7C+IoT+Systems;Building+Intelligent+and+Explainable+AI;Engineering+Solutions+for+the+Real+World" alt="Dynamic Typing Banner" />
 </p>
 
 <p align="center">
@@ -18,9 +20,10 @@
 ## 🧠 About Me
 
 🎓 **B.Tech in Computer Science** – Presidency University  
-💡 Passionate about **AI**, **IoT**, **Embedded Systems**, and building **full-stack web apps**  
-🧰 Obsessed with solving real-world problems through tech  
-🔭 Currently diving into **Generative AI**, **Edge Computing**, and **Cloud Architectures**
+🔍 Strong interest in **Machine Learning, Cybersecurity, Intelligent Systems, and Applied AI Research**  
+🧠 Focused on building **validated, explainable, and real-world ML systems**  
+🔭 Currently working on **ML-based Network Intrusion Detection**, **Applied Cybersecurity**, and **Data-Driven System Design**  
+🌱 Exploring **Generative AI, Edge Intelligence, and Cloud-Native ML Pipelines**
 
 ---
 
@@ -31,13 +34,13 @@
     <td><img src="https://skillicons.dev/icons?i=python,java,html,css,js" alt="Languages" /></td>
   </tr>
   <tr>
-    <td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,scikit-learn" alt="AI Tools" /></td>
+    <td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,scikit-learn" alt="AI & ML" /></td>
   </tr>
   <tr>
-    <td><img src="https://skillicons.dev/icons?i=arduino,raspberrypi,docker,linux" alt="IoT & Platforms" /></td>
+    <td><img src="https://skillicons.dev/icons?i=arduino,raspberrypi,docker,linux" alt="IoT & Systems" /></td>
   </tr>
   <tr>
-    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,vscode,androidstudio" alt="Databases & IDEs" /></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,vscode,androidstudio" alt="Databases & Tools" /></td>
   </tr>
 </table>
 
@@ -45,21 +48,33 @@
 
 ## 📌 Featured Projects
 
-🔡 **SignSpeak-AI**  
-> 👋 Converts sign language into text/speech using **CNN**, **LSTM**, **OpenCV**  
-> 🌍 Future-ready with multilingual support & voice-to-sign translation
+🛡️ **Machine Learning–Based Network Intrusion Detection System**  
+> 🔐 Built an end-to-end IDS using real-world network traffic (CICIDS2017)  
+> 📊 Implemented preprocessing, validation-aware training, and feature importance analysis  
+> ✅ Achieved **99.99% validation accuracy** with strong generalization and explainability
 
-🩺 **CareCast – AI Health Predictor**  
-> 🧠 Uses health history & ML to predict disease risk  
-> 🚑 Delivers proactive alerts and lifestyle suggestions
-> [CareCast](https://care-cast-predictions.vercel.app/)
+🌾 **KHETSAT- A Smart Agriculture Platform & IoT Yield Prediction System**  
+> 🌱 Web-based decision support system with real-time monitoring and predictive analytics  
+> 📡 IoT device integrated with ML models for soil vitals monitoring and crop yield prediction  
+> ♻️ Enabled data-driven, sustainable farming practices
 
-🚦 **Smart Traffic Management System**  
-> ⚙️ Edge AI with dynamic signal optimization  
-> 📊 Real-time traffic analytics for smarter urban planning
+🧬 **Physio-Aware Deepfake Detection (rPPG-Based)**  
+> 🎥 Developed a physiology-driven deepfake detection system using multi-ROI remote photoplethysmography (rPPG) signals instead of visual artifacts  
+> 📊 Extracted temporal, spectral, and cross-ROI coherence features from facial videos  
+> ✅ Achieved **93.6% accuracy (AUC 0.955)** with successful **cross-dataset generalization** on the **DFD-Original** dataset
 
-📄 **Published Work:**  
-📰 _Real-Time Queue Detection_ – [IJSREM Journal (2025)](https://www.doi.org/10.55041/IJSREM40695)
+🩺 **CareCast – AI Health Risk Prediction**  
+> 🧠 ML-based disease risk prediction using historical health data  
+> 🚑 Provides early alerts and preventive lifestyle recommendations  
+> 🔗 <a href="https://care-cast-predictions.vercel.app/">Live Demo</a>
+
+---
+
+## 📄 Publications & Research
+
+📰 **Real-Time Queue Detection using Computer Vision**  
+_IJSREM Journal, 2025_  
+🔗 https://www.doi.org/10.55041/IJSREM40695
 
 ---
 
@@ -69,23 +84,23 @@
 🥈 **Runner-up** – SCIMIT 2024 Project Expo  
 🥉 **3rd Place** – Prajwalan 2k24 Hackathon  
 🎖️ **Finalist** – InnovateX @ IISc Bengaluru  
-🏸 **Athlete** – KVS National Level Badminton Player
+🏸 **National-Level Badminton Player** – KVS
 
 ---
 
 ## 📫 Get in Touch
 
-- 📧 **Email:** [pragnyansatapathy@gmail.com](mailto:pragnyansatapathy@gmail.com)  
+- 📧 **Email:** <a href="mailto:pragnyansatapathy@gmail.com">pragnyansatapathy@gmail.com</a>  
 - 📍 **Location:** Bengaluru, India  
 - 📞 **Phone:** +91-7829465164  
-- 🔗 **LinkedIn:** [Connect Here](https://www.linkedin.com/in/pragnyan)
+- 🔗 **LinkedIn:** <a href="https://www.linkedin.com/in/pragnyan">Connect Here</a>
 
 ---
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
   <br>
-  ✨ _“Passionate about learning, building, and creating tech that matters.”_ ✨
+  ✨ <i>“Building intelligent systems that are accurate, explainable, and impactful.”</i> ✨
   <br>
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 </p>

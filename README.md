@@ -78,7 +78,7 @@ I’d love to talk.
   <a href="https://www.linkedin.com/in/pragnyan">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://portfolio-dnum.vercel.app/">
+  <a href="https://pragnyan-satapathy.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>

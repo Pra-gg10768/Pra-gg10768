@@ -58,12 +58,15 @@ I enjoy bridging **research ideas → production-ready systems**.
 
 ### ⚙️ Systems & DevOps
 <p>
-  <img src="https://skillicons.dev/icons?i=spring,salesforce,mulesoft,mysql,mongodb,git" />
+  <img src="https://skillicons.dev/icons?i=spring,docker,postman,mysql,mongodb,git" />
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
 ## 🚀 Featured Work
+
+🧬 **Physio-Aware Deepfake Detection**  
+*rPPG signals · Cross-dataset generalization*
 
 🛡️ **ML-Based Network Intrusion Detection**  
 *Real-world traffic · Explainable ML · Security systems*
@@ -73,9 +76,6 @@ I enjoy bridging **research ideas → production-ready systems**.
 
 🚗 **GPS & OBD-II Trip Visualization**  
 *Spatio-temporal analytics · 2D/3D mapping*
-
-🧬 **Physio-Aware Deepfake Detection**  
-*rPPG signals · Cross-dataset generalization*
 
 🤖 **NovaWrite AI (MVP Template)**  
 *AI-style content generation · SaaS UX*  

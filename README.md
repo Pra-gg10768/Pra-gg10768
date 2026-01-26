@@ -1,97 +1,54 @@
-<img src="github-header-image.png" alt="GitHub Header - Pragnyan Satapathy" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
-<h1 align="center">👋 Hi, I'm Pragnyan Satapathy</h1>
-
-<p align="center">
-  <b>AI & ML Research · Vision Systems · SaaS & Data-Driven Engineering</b>
-</p>
+<h2 align="center">🎯 What I’m Interested In</h2>
 
 <p align="center">
-📍 Bengaluru, India · 🌐 Open to Research, Collaboration & Freelance Work
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=00F5FF&center=true&vCenter=true&width=520&lines=Intelligence+meets+real-world+constraints;Systems+that+work+beyond+benchmarks" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00F5FF&center=true&vCenter=true&width=720&lines=Applied+AI+%7C+Computer+Vision+%7C+Cybersecurity;SaaS+Dashboards+%7C+AI+MVPs;Research-Driven+Engineering+for+Real-World+Systems" />
-</p>
+I’m motivated by problems where **intelligence meets real-world constraints**.
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Pra-gg10768&style=flat-square&color=brightgreen" />
-  <img src="https://img.shields.io/github/followers/Pra-gg10768?label=Followers&style=social" />
-</p>
+I enjoy working on:
 
----
+- 🧠 **Applied Machine Learning & AI Systems**  
+  <sub>security · perception · prediction · decision-making</sub>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+- 👁️ **Computer Vision in live environments**  
+  <sub>crowd analysis · monitoring · physiological signals</sub>
 
-## 🧠 About Me
+- 📊 **Data-driven & SaaS applications**  
+  <sub>analytics dashboards · AI-powered MVPs · product UX</sub>
 
-I’m a **Computer Science graduate** interested in building **intelligent, explainable, and real-world systems**.
+- ⚙️ **Systems that are explainable, scalable, and reliable**
 
-My work lives at the intersection of:
-- **Applied Machine Learning & Cybersecurity**
-- **Computer Vision for real-time environments**
-- **SaaS dashboards & AI-powered web applications**
+Most of my work explores how models behave **outside controlled datasets** —  
+handling noise, scale variation, latency, and imperfect data.
 
-I enjoy bridging **research ideas → production-ready systems**.
+> I care less about benchmarks alone, and more about **systems that hold up in practice**.
 
 ---
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
-## 🛠️ Skills & Tools
+<h2 align="center">🌱 Current Direction</h2>
 
-### 👨‍💻 Programming
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,js" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1100&color=7FFFD4&center=true&vCenter=true&width=520&lines=Exploring+vision-based+intelligence;Building+AI-powered+products;Open+to+collaboration" />
 </p>
 
-### 🧠 AI / ML & Vision
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
-  <img src="https://skillicons.dev/icons?i=sklearn,keras" />
-</p>
+- 🔍 Exploring **vision-based monitoring and analytics**
+- 🛠️ Building **AI-powered web products and dashboards**
+- ✨ Experimenting with **Generative AI UX and API-ready architectures**
+- 🤝 Open to **research collaboration, startup MVPs, and freelance projects**
 
-### 🌐 Web & SaaS
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs" />
-</p>
-
-### ⚙️ Systems & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=spring,docker,postman,mysql,mongodb,git" />
-</p>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-
-## 🚀 Featured Work
-
-🧬 **Physio-Aware Deepfake Detection**  
-*rPPG signals · Cross-dataset generalization*
-
-🛡️ **ML-Based Network Intrusion Detection**  
-*Real-world traffic · Explainable ML · Security systems*
-
-🚦 **Real-Time Queue Detection & Crowd Analysis**  
-*YOLO · Vision pipelines · Published research*
-
-🚗 **GPS & OBD-II Trip Visualization**  
-*Spatio-temporal analytics · 2D/3D mapping*
-
-🤖 **NovaWrite AI (MVP Template)**  
-*AI-style content generation · SaaS UX*  
-🌐 https://novawrite-ai.vercel.app
-
-📊 **PulseMetrics (SaaS Dashboard Template)**  
-*KPI storytelling · Analytics UI*  
-🌐 https://pulsemetrics-dashboard.vercel.app
-
-👉 *Detailed breakdowns live inside repositories & portfolio case studies.*
+If something you’re working on touches **AI + systems + real-world deployment**,  
+I’d love to talk.
 
 ---
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
-## 📊 GitHub Stats
+<h2 align="center">📊 GitHub Activity</h2>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Pra-gg10768&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
@@ -106,20 +63,9 @@ I enjoy bridging **research ideas → production-ready systems**.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
-## 🌱 What Drives Me
+<h2 align="center">📫 Let’s Connect</h2>
 
-I believe good systems are not just accurate — they are  
-**robust, interpretable, and useful in practice**.
-
-> *“Build systems that survive outside the lab.”*
-
----
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-
-## 📫 Let’s Connect
-
-<p>
+<p align="center">
   <a href="mailto:pragnyansatapathy@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>

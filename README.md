@@ -42,13 +42,13 @@ I enjoy bridging **research ideas → production-ready systems**.
 
 ### 👨‍💻 Programming
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,js,c,cpp" />
+  <img src="https://skillicons.dev/icons?i=python,java,js" />
 </p>
 
 ### 🧠 AI / ML & Vision
 <p>
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
-  <img src="https://skillicons.dev/icons?i=sklearn" />
+  <img src="https://skillicons.dev/icons?i=sklearn,keras" />
 </p>
 
 ### 🌐 Web & SaaS
@@ -58,7 +58,7 @@ I enjoy bridging **research ideas → production-ready systems**.
 
 ### ⚙️ Systems & DevOps
 <p>
-  <img src="https://skillicons.dev/icons?i=docker,linux,postgres,mongodb,git" />
+  <img src="https://skillicons.dev/icons?i=springboot,mulesoft,mysql,mongodb,git" />
 </p>
 
 ---

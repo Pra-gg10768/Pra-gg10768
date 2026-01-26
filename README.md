@@ -27,20 +27,20 @@ AI & ML Research Aspirant · Full-Stack Engineer · SaaS & Data-Driven Systems
 ## 🧠 About Me
 
 🎓 **B.Tech in Computer Science – Presidency University**  
-🔍 Passionate about **Applied Machine Learning, Cybersecurity, and Intelligent Systems**  
+🔍 Passionate about **Applied Machine Learning, Cybersecurity, and Vision Systems**  
 🧠 I focus on building **validated, explainable, and production-ready ML solutions**  
 ⚙️ Experienced in bridging **research → engineering → real-world deployment**
 
 💼 **Freelancing & Collaboration**  
-I also work with **startups, founders, and teams** to build:
+I am interested to work with **startups, founders, and teams** to build:
 - SaaS dashboards & analytics platforms
 - AI-powered MVPs
 - Data-driven web applications
 - Conversion-focused business websites
 
 🔭 Current focus areas:
-- ML-based Network Intrusion Detection
-- AI-driven Security & Monitoring Systems
+- ML-driven Security and monitoring Systems
+- Vision based smart Systems
 - SaaS Analytics Dashboards
 - Generative AI UX & API-ready architectures
 
@@ -67,28 +67,47 @@ I also work with **startups, founders, and teams** to build:
 ### 🛡️ Machine Learning–Based Network Intrusion Detection System
 - End-to-end IDS using **CICIDS2017 real-world traffic**
 - Feature engineering, validation-aware training & explainability
-- **99.99% validation accuracy** with strong generalization
+- **95.68% validation accuracy** with strong generalization
 
-### 🌾 KHETSAT — Smart Agriculture & IoT Yield Prediction
-- IoT + ML platform for soil vitals monitoring
-- Predictive crop yield analytics
-- Sustainable, data-driven farming decisions
+### 🚦 Real-Time Queue Detection and Management System
+- Implemented a **real-time multi-object detection system** for queue and crowd analysis using **YOLO**
+- Addressed real-world challenges such as:
+  - Occlusion
+  - Scale variation
+  - Changing lighting conditions
+- Designed a complete **end-to-end computer vision pipeline** for live camera feeds
+- Applied to **crowd management, public safety, and smart infrastructure**
+- 📄 **Published in a peer-reviewed journal**
+
+### 🚗 GPS and OBD-II Based Trip Visualization System
+- Developed a **modular telemetry visualization pipeline** integrating:
+  - GPS data
+  - OBD-II vehicle diagnostics
+- Implemented advanced analytics including:
+  - Timestamp synchronization
+  - Data cleaning and smoothing
+  - Geodesic speed estimation
+  - Automated stop detection
+  - Speed-based route coloring
+- Built **interactive 2D and 3D trip visualizations** using **Mapbox** and **Deck.gl**
+- Demonstrates strong expertise in **data engineering, spatio-temporal analysis, and visualization**
 
 ### 🧬 Physio-Aware Deepfake Detection (rPPG-Based)
 - Deepfake detection using **physiological signals**, not visual artifacts
 - Multi-ROI temporal & spectral feature extraction
 - **93.6% accuracy (AUC 0.955)** with cross-dataset generalization
 
-### 🤖 NovaWrite AI — AI Content Generator (MVP)
+### 🤖 NovaWrite AI — AI Content Generator (MVP) (Template)
 - AI-style content generation workflow
 - Real-time async UX, streaming output, scalable architecture
 - Built with **Next.js, Tailwind, Framer Motion**
 - 🌐 Live Demo: https://novawrite-ai.vercel.app
 
-### 📊 PulseMetrics — SaaS Analytics Dashboard
+### 📊 PulseMetrics — SaaS Analytics Dashboard (Template)
 - Advanced data visualization & KPI storytelling
 - Performance vs behavior analytics
 - Client-ready dashboard template
+- 🌐 Live Demo: https://pulsemetrics-dashboard.vercel.app
 
 ---
 
@@ -126,7 +145,7 @@ If you have an idea or problem worth solving — let’s talk.
 
 - 📧 Email: **pragnyansatapathy@gmail.com**
 - 💼 LinkedIn: https://www.linkedin.com/in/pragnyan
-- 🌐 Portfolio: *(add your Vercel portfolio link here)*
+- 🌐 Portfolio: https://portfolio-dnum.vercel.app/
 
 ---
 

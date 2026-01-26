@@ -1,5 +1,9 @@
 <h1 align="center">👋 Hi, I'm Pragnyan Satapathy</h1>
 
+<p align="center"> <b>AI & ML Research · Vision Systems · SaaS & Data-Driven Engineering</b>
+  
+</p> <p align="center"> 📍 Bengaluru, India · 🌐 Open to Research, Collaboration & Freelance Work </p>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
 <h2 align="center">🎯 What I’m Interested In</h2>

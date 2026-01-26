@@ -1,3 +1,5 @@
+<h1 align="center">👋 Hi, I'm Pragnyan Satapathy</h1>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
 <h2 align="center">🎯 What I’m Interested In</h2>

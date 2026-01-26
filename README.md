@@ -58,10 +58,8 @@ I enjoy bridging **research ideas → production-ready systems**.
 
 ### ⚙️ Systems & DevOps
 <p>
-  <img src="https://skillicons.dev/icons?i=springboot,mulesoft,mysql,mongodb,git" />
+  <img src="https://skillicons.dev/icons?i=spring,salesforce,mulesoft,mysql,mongodb,git" />
 </p>
-
----
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 

@@ -1,84 +1,136 @@
 <img src="github-header-image.png" alt="GitHub Header - Pragnyan Satapathy" width="100%" />
 
-## 👋 Hello, I'm Pragnyan Satapathy
+<h1 align="center">👋 Hi, I'm Pragnyan Satapathy</h1>
 
-🎓 Computer Science Graduate | AI & ML Research Enthusiast  
-💡 Interested in building intelligent systems that work reliably in real-world environments  
-🚀 Exploring the intersection of **AI, Computer Vision, Cybersecurity, and SaaS engineering**
+<p align="center">
+  <b>AI & ML Research · Vision Systems · SaaS & Data-Driven Engineering</b>
+</p>
+
+<p align="center">
+📍 Bengaluru, India · 🌐 Open to Research, Collaboration & Freelance Work
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00F5FF&center=true&vCenter=true&width=720&lines=Applied+AI+%7C+Computer+Vision+%7C+Cybersecurity;SaaS+Dashboards+%7C+AI+MVPs;Research-Driven+Engineering+for+Real-World+Systems" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Pra-gg10768&style=flat-square&color=brightgreen" />
+  <img src="https://img.shields.io/github/followers/Pra-gg10768?label=Followers&style=social" />
+</p>
 
 ---
 
-## 🌟 About Me
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
-I’m passionate about **applied AI and system-level problem solving** — turning research ideas into usable, scalable solutions.
+## 🧠 About Me
 
-My interests span **machine learning, vision systems, and data-driven applications**, with a strong focus on explainability and real-world constraints. Alongside research-oriented work, I also enjoy building **modern web applications and SaaS dashboards** that bring these ideas to life.
+I’m a **Computer Science graduate** interested in building **intelligent, explainable, and real-world systems**.
 
-🔬 Currently working on **vision-based queue detection & crowd analysis**  
-🧠 Experience with **ML-driven security systems and deepfake detection**  
-⚙️ Building **AI-powered MVPs and analytics dashboards**  
-🌐 Open to **research collaboration, freelance projects, and startup MVPs**
+My work lives at the intersection of:
+- **Applied Machine Learning & Cybersecurity**
+- **Computer Vision for real-time environments**
+- **SaaS dashboards & AI-powered web applications**
+
+I enjoy bridging **research ideas → production-ready systems**.
 
 ---
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
 ## 🛠️ Skills & Tools
 
-**Programming:**  
-Python, Java, JavaScript, C/C++
+### 👨‍💻 Programming
+<p>
+  <img src="https://skillicons.dev/icons?i=python,java,js,c,cpp" />
+</p>
 
-**AI / ML & Vision:**  
-PyTorch, TensorFlow, YOLO, OpenCV, Scikit-learn
+### 🧠 AI / ML & Vision
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
+  <img src="https://skillicons.dev/icons?i=sklearn" />
+</p>
 
-**Web & SaaS:**  
-React, Next.js, Tailwind CSS, Node.js
+### 🌐 Web & SaaS
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs" />
+</p>
 
-**Systems & Tools:**  
-Docker, Linux, PostgreSQL, MongoDB, Git/GitHub
+### ⚙️ Systems & DevOps
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,linux,postgres,mongodb,git" />
+</p>
 
 ---
 
-## 📌 Featured Projects
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
-🛡️ **ML-Based Network Intrusion Detection System**  
-Applied machine learning on real-world traffic for security monitoring.
+## 🚀 Featured Work
 
-🚦 **Real-Time Queue Detection & Management**  
-YOLO-based vision system for crowd analytics — *published research*.
+🛡️ **ML-Based Network Intrusion Detection**  
+*Real-world traffic · Explainable ML · Security systems*
+
+🚦 **Real-Time Queue Detection & Crowd Analysis**  
+*YOLO · Vision pipelines · Published research*
 
 🚗 **GPS & OBD-II Trip Visualization**  
-Spatio-temporal vehicle analytics with 2D/3D route visualization.
+*Spatio-temporal analytics · 2D/3D mapping*
 
 🧬 **Physio-Aware Deepfake Detection**  
-Physiology-driven approach using rPPG signals.
+*rPPG signals · Cross-dataset generalization*
 
-🤖 **NovaWrite AI**  
-AI-style content generation MVP with modern SaaS UX.  
+🤖 **NovaWrite AI (MVP Template)**  
+*AI-style content generation · SaaS UX*  
 🌐 https://novawrite-ai.vercel.app
 
-📊 **PulseMetrics Dashboard**  
-SaaS analytics dashboard focused on KPI storytelling.  
+📊 **PulseMetrics (SaaS Dashboard Template)**  
+*KPI storytelling · Analytics UI*  
 🌐 https://pulsemetrics-dashboard.vercel.app
 
+👉 *Detailed breakdowns live inside repositories & portfolio case studies.*
+
 ---
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Pra-gg10768&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pra-gg10768&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pra-gg10768&layout=compact&theme=tokyonight&hide_border=true" width="40%" />
+</p>
+
+---
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
 ## 🌱 What Drives Me
 
-I believe good systems are not just accurate — they are **robust, interpretable, and useful in practice**.
-
-My goal is to continue growing in **AI research and intelligent system design**, while collaborating with people who care about solving meaningful problems.
+I believe good systems are not just accurate — they are  
+**robust, interpretable, and useful in practice**.
 
 > *“Build systems that survive outside the lab.”*
 
 ---
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
+
 ## 📫 Let’s Connect
 
-📧 Email: pragnyansatapathy@gmail.com  
-💼 LinkedIn: https://www.linkedin.com/in/pragnyan  
-🌐 Portfolio: https://portfolio-dnum.vercel.app/
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+<p>
+  <a href="mailto:pragnyansatapathy@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/pragnyan">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://portfolio-dnum.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
 </p>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />

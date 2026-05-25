@@ -1,148 +1,328 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:7B2FBE,100:00F5FF&height=200&section=header&text=Pragnyan%20Satapathy&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=AI%20%7C%20Computer%20Vision%20%7C%20Applied%20ML%20Systems&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
+
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,40:0a0a1a,70:0d0d2b,100:000000&height=300&section=header&text=Pragnyan%20Satapathy&fontSize=56&fontColor=E8E8FF&fontAlignY=42&desc=AI%20Signals%20%20%E2%80%A2%20%20Computer%20Vision%20%20%E2%80%A2%20%20Applied%20ML%20Systems&descAlignY=60&descSize=18&descColor=8888BB&stroke=4444AA&strokeWidth=1&animation=fadeIn" width="100%" />
+
 </div>
-<div align="center">
-<a href="https://pragnyan-satapathy.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+AI+systems+that+hold+up+in+the+real+world;Computer+Vision+%C2%B7+Deepfake+Detection+%C2%B7+rPPG+Signals;From+research+to+deployment+%E2%80%94+no+toy+datasets" alt="Typing SVG" />
-</a>
+
 <br/>
-Show Image
-Show Image
-Show Image
-Show Image
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1000&color=9999EE&background=00000000&center=true&vCenter=true&width=680&lines=→+Deepfake+detection+that+survives+compression+%26+GAN+variants;→+Remote+heart+rate+from+webcam+—+zero+wearables;→+Real-time+YOLO+monitoring+under+occlusion+%26+scale+variance;→+Systems+that+hold+up+beyond+the+benchmark" />
+
 </div>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-👤 Who I Am
-I'm an AI/ML engineer focused on computer vision, biosignal processing, and applied research systems — building things that actually work outside controlled datasets.
-Most of my work lives at the intersection of perception, security, and real-world deployment — crowd monitoring with YOLO, detecting deepfakes, estimating heart rate from a webcam, visualizing telemetry signals. I care about systems that are explainable, latency-aware, and honest about their failure modes.
 
-"I care less about benchmarks alone, and more about systems that hold up in practice."
+<br/>
 
-📍 Bengaluru, India · 🤝 Open to research collaboration, startup MVPs & freelance
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-🔬 Featured Projects
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d0d2b?style=flat-square&logo=vercel&logoColor=9999EE&label=⚡)](https://pragnyan-satapathy.vercel.app)&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d0d2b?style=flat-square&logo=linkedin&logoColor=5588FF)](https://www.linkedin.com/in/pragnyan)&nbsp;&nbsp;
+[![Gmail](https://img.shields.io/badge/Email-0d0d2b?style=flat-square&logo=gmail&logoColor=FF6666)](mailto:pragnyansatapathy@gmail.com)&nbsp;&nbsp;
+![Visitors](https://komarev.com/ghpvc/?username=Pra-gg10768&style=flat-square&color=4444AA&label=views)
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## `whoami`
+
+```python
+class Pragnyan:
+    name       = "Pragnyan Satapathy"
+    location   = "Bengaluru, India"
+    focus      = [
+        "Computer Vision",
+        "Biosignal Processing",
+        "Applied ML",
+        "Cybersecurity ML"
+    ]
+    building   = [
+        "Deepfake detectors",       # spatial-frequency forensics
+        "rPPG pipelines",           # contactless vitals from webcam
+        "YOLO monitoring systems",  # real-time crowd analytics
+        "XAI research tools",       # trust over raw accuracy
+        "Telemetry dashboards",     # operator-first UX
+    ]
+    philosophy = "Less about benchmarks. More about systems that hold up in practice."
+    open_to    = ["Research collaboration", "Startup MVPs", "Freelance AI projects"]
+```
+
+> Most of my work explores how models behave **outside controlled datasets** — handling noise, scale variation, latency, and imperfect data.
+
+<br/>
+
+---
+
+<br/>
+
+## Projects
+
+<br/>
+
 <table>
 <tr>
 <td width="50%" valign="top">
-🕵️ Deepfake Detection System
-Detecting AI-generated media using spatial-frequency forensics and attention-based CNNs. Handles compressed video, social-media artifacts, and GAN-generated faces — not just clean test sets.
-PyTorch OpenCV CNN Frequency Analysis XAI
+
+### 🕵️ Deepfake Detection System
+`PyTorch` · `CNN` · `Frequency Analysis`
+
+Spatial-frequency forensics with attention mechanisms. Built to survive **compression artifacts and GAN variants** — not just clean test sets. Frequency-domain analysis catches what spatial methods miss.
+
 </td>
 <td width="50%" valign="top">
-💓 rPPG — Remote Heart Rate Estimation
-Contactless physiological signal extraction from webcam video using remote photoplethysmography. Works under natural lighting variation and minor head movement — no wearables needed.
-Python Signal Processing OpenCV MediaPipe FFT
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-👁️ YOLO-Based Vision Monitoring
-Real-time object detection and crowd analytics in live environments — designed for scale variation, occlusion, and latency constraints. Built for deployment, not just demo.
-YOLOv8 Python FastAPI OpenCV Real-time Inference
-</td>
-<td width="50%" valign="top">
-📡 Telemetry Visualization Dashboard
-Interactive dashboards for streaming sensor and signal data — surfacing anomalies, patterns, and metrics in real time. Built with explainability and operator usability in mind.
-Python Plotly Dash Pandas Streaming Data
+
+### 💓 Remote Heart Rate (rPPG)
+`OpenCV` · `MediaPipe` · `FFT` · `DSP`
+
+Contactless heart rate from webcam video. Works under **natural lighting variation and head movement**. Zero wearables, pure signal processing against skin-tone pixel flux.
+
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-🔐 Cybersecurity ML Systems
-ML-assisted detection for network anomalies and threat classification — handling class imbalance, adversarial robustness, and noisy real-world traffic data.
-Scikit-learn XGBoost SHAP Network Data Anomaly Detection
+
+### 👁️ YOLO Vision Monitoring
+`YOLOv8` · `FastAPI` · `OpenCV`
+
+Real-time crowd detection and analytics. Handles **occlusion, scale variation, latency constraints** — designed for actual deployment, not demo environments.
+
 </td>
 <td width="50%" valign="top">
-🧠 Explainable ML Research
-Making model decisions interpretable in high-stakes domains — GradCAM, SHAP, LIME applied to vision and tabular models. Research focus on trust and reliability over raw accuracy.
-SHAP GradCAM LIME PyTorch Interpretability
+
+### 📡 Telemetry Dashboard
+`Plotly` · `Dash` · `Pandas` · `Streaming`
+
+Live sensor/signal visualization with anomaly surfacing. **Operator-first UX** with explainability built in — not bolted on after.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 Cybersecurity ML
+`XGBoost` · `SHAP` · `Network Data`
+
+Network anomaly and threat classification under **class imbalance and adversarial traffic**. Built to generalize beyond clean benchmark distributions.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 Explainable AI Research
+`GradCAM` · `SHAP` · `LIME` · `PyTorch`
+
+Making model decisions interpretable in **high-stakes domains**. Trust over raw accuracy — because a black box isn't deployable.
+
 </td>
 </tr>
 </table>
+
 <div align="center">
-Show Image
-</div>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-⚙️ Tech Stack & Tools
-<div align="center">
-Languages
-Show Image
-Show Image
-Show Image
-Show Image
-ML / DL Frameworks
-Show Image
-Show Image
-Show Image
-Show Image
-Computer Vision
-Show Image
-Show Image
-Show Image
-Backend & Deployment
-Show Image
-Show Image
-Show Image
-Show Image
-Data & Visualization
-Show Image
-Show Image
-Show Image
-Show Image
-Explainability
-Show Image
-Show Image
-</div>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-🎯 What I'm Interested In
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=7FFFD4&center=true&vCenter=true&width=560&lines=Vision+systems+that+work+beyond+lab+conditions;Physiological+signal+extraction+from+video;Adversarial+robustness+and+model+trust;AI+products+with+real+deployment+constraints" />
-</div>
+
 <br/>
 
-🧠 Applied ML & Computer Vision — perception, prediction, security, physiological sensing
-🔍 Deepfake & Media Forensics — spatial-frequency analysis, attention mechanisms, robustness to compression
-💓 Non-contact Biosignal Processing — rPPG, remote vital estimation, signal denoising
-🔐 Cybersecurity ML — anomaly detection, adversarial robustness, network traffic classification
-📊 Explainable AI — GradCAM, SHAP, model interpretability in high-stakes contexts
-⚙️ Deployment-aware Systems — latency, noise tolerance, imperfect real-world data
+[![View Portfolio →](https://img.shields.io/badge/Explore%20all%20projects%20on%20portfolio%20→-1a1a3e?style=for-the-badge&logo=vercel&logoColor=9999EE)](https://pragnyan-satapathy.vercel.app)
 
-Most of my work explores how models behave outside controlled datasets — handling noise, scale variation, latency, and imperfect data.
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-🌱 Current Direction
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=900&color=00F5FF&center=true&vCenter=true&width=540&lines=Building+vision-based+monitoring+systems;Exploring+Generative+AI+architectures;Shipping+AI-powered+web+products;Open+to+research+%26+collaboration" />
 </div>
+
 <br/>
 
-🔍 Exploring vision-based monitoring and biosignal analytics
-🛠️ Building AI-powered web products and interactive dashboards
-✨ Experimenting with Generative AI UX and API-ready architectures
-📖 Reading into adversarial robustness and domain generalization
-🤝 Open to research collaboration, startup MVPs, and freelance projects
+---
 
-If something you're working on touches AI + systems + real-world deployment — I'd love to talk.
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-📊 GitHub Activity
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Pra-gg10768&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pra-gg10768&theme=tokyonight&hide_border=true" width="48%" />
-</div>
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pra-gg10768&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="42%" />
-</div>
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pra-gg10768&theme=tokyo-night&hide_border=true&area=true" width="95%" />
-</div>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-📫 Let's Connect
-<div align="center">
-I'm always open to interesting problems, research conversations, and collaboration.
 <br/>
-Show Image
-Show Image
-Show Image
+
+## Tech Stack
+
 <br/>
-Deepfake detection · rPPG · YOLO · Telemetry · Cybersecurity ML · XAI
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-1a1a3e?style=flat-square&logo=python&logoColor=9999EE)
+![C++](https://img.shields.io/badge/C++-1a1a3e?style=flat-square&logo=cplusplus&logoColor=7777CC)
+![JavaScript](https://img.shields.io/badge/JavaScript-1a1a3e?style=flat-square&logo=javascript&logoColor=DDCC44)
+![TypeScript](https://img.shields.io/badge/TypeScript-1a1a3e?style=flat-square&logo=typescript&logoColor=5588FF)
+![Bash](https://img.shields.io/badge/Bash-1a1a3e?style=flat-square&logo=gnubash&logoColor=88CC88)
+
+**ML / DL**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-1a1a3e?style=flat-square&logo=pytorch&logoColor=EE6644)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-1a1a3e?style=flat-square&logo=tensorflow&logoColor=FF8844)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1a1a3e?style=flat-square&logo=scikitlearn&logoColor=FF9944)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-1a1a3e?style=flat-square&logo=huggingface&logoColor=DDBB44)
+
+**Vision & Signal**
+
+![OpenCV](https://img.shields.io/badge/OpenCV-1a1a3e?style=flat-square&logo=opencv&logoColor=55AAFF)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-1a1a3e?style=flat-square&logo=yolo&logoColor=9999EE)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-1a1a3e?style=flat-square&logo=google&logoColor=66BBFF)
+
+**XAI & Analytics**
+
+![SHAP](https://img.shields.io/badge/SHAP-1a1a3e?style=flat-square&logoColor=9999EE)
+![GradCAM](https://img.shields.io/badge/GradCAM-1a1a3e?style=flat-square&logoColor=9999EE)
+![LIME](https://img.shields.io/badge/LIME-1a1a3e?style=flat-square&logoColor=9999EE)
+![Plotly](https://img.shields.io/badge/Plotly-1a1a3e?style=flat-square&logo=plotly&logoColor=7777EE)
+![Streamlit](https://img.shields.io/badge/Streamlit-1a1a3e?style=flat-square&logo=streamlit&logoColor=EE4444)
+
+**Backend & Infra**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-1a1a3e?style=flat-square&logo=fastapi&logoColor=44BBAA)
+![Docker](https://img.shields.io/badge/Docker-1a1a3e?style=flat-square&logo=docker&logoColor=4499EE)
+![Linux](https://img.shields.io/badge/Linux-1a1a3e?style=flat-square&logo=linux&logoColor=DDCC44)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1a3e?style=flat-square&logo=postgresql&logoColor=6699EE)
+![Git](https://img.shields.io/badge/Git-1a1a3e?style=flat-square&logo=git&logoColor=EE5533)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-1a1a3e?style=flat-square&logo=react&logoColor=44CCEE)
+![Vercel](https://img.shields.io/badge/Vercel-1a1a3e?style=flat-square&logo=vercel&logoColor=EEEEEE)
+
+<br/>
+
+---
+
+<br/>
+
+## Research Interests
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**🕵️ Media Forensics**
+
+Deepfake detection · GAN fingerprinting
+Compression robustness · Frequency analysis
+
+</td>
+<td align="center" width="33%">
+
+**💓 Biosignal Processing**
+
+rPPG · Remote vitals · Webcam-based sensing
+Signal denoising · Physiological ML
+
+</td>
+<td align="center" width="33%">
+
+**🔐 Security ML**
+
+Anomaly detection · Adversarial robustness
+Network traffic classification · Threat modeling
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
+**👁️ Vision Systems**
+
+YOLO · Crowd analytics · Real-time inference
+Occlusion handling · Monitoring at scale
+
+</td>
+<td align="center" width="33%">
+
+**🧠 Explainable AI**
+
+GradCAM · SHAP · LIME
+Interpretability in production · Model trust
+
+</td>
+<td align="center" width="33%">
+
+**📡 Telemetry & Dashboards**
+
+Streaming data · Anomaly surfacing
+Operator UX · Sensor signal visualization
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## GitHub Stats
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Pra-gg10768&show_icons=true&theme=transparent&hide_border=false&border_color=333366&include_all_commits=true&count_private=true&rank_icon=github&ring_color=6666CC&icon_color=9999EE&title_color=9999EE&text_color=AAAACC&bg_color=0d0d1a" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pra-gg10768&theme=transparent&hide_border=false&background=0d0d1a&border=333366&ring=6666CC&fire=9999EE&currStreakLabel=9999EE&sideLabels=AAAACC&dates=666688&currStreakNum=DDDDFF&sideNums=DDDDFF" width="49%" />
+
 </div>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:7B2FBE,100:00F5FF&height=100&section=footer" width="100%" />
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pra-gg10768&layout=donut-vertical&theme=transparent&hide_border=false&border_color=333366&title_color=9999EE&text_color=AAAACC&bg_color=0d0d1a&langs_count=8" width="35%" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://github-profile-trophy.vercel.app/?username=Pra-gg10768&theme=onestar&no-frame=false&no-bg=false&margin-w=6&column=4&title_color=9999EE" width="59%" />
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pra-gg10768&theme=react-dark&hide_border=false&border_color=333366&area=true&area_color=6666CC&color=9999EE&line=6666CC&point=DDDDFF&bg_color=0d0d1a" width="97%" />
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## Currently
+
+```
+📍  Exploring vision-based monitoring & biosignal analytics
+🛠️  Building AI-powered web products and dashboards
+✨  Experimenting with Generative AI UX & API architectures
+📖  Reading into adversarial robustness & domain generalization
+🤝  Open to research collab, startup MVPs, freelance AI
+```
+
+<br/>
+
+> If something you're working on touches **AI + systems + real-world deployment** — I'd love to talk.
+
+<br/>
+
+---
+
+<br/>
+
+## Connect
+
+<div align="center">
+
+<br/>
+
+[![Email](https://img.shields.io/badge/Email%20Me-1a1a3e?style=for-the-badge&logo=gmail&logoColor=FF6666)](mailto:pragnyansatapathy@gmail.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a3e?style=for-the-badge&logo=linkedin&logoColor=5588FF)](https://www.linkedin.com/in/pragnyan)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-1a1a3e?style=for-the-badge&logo=vercel&logoColor=9999EE)](https://pragnyan-satapathy.vercel.app)
+
+<br/><br/>
+
+`deepfake-detection` · `rPPG` · `computer-vision` · `cybersecurity-ml` · `explainable-ai` · `YOLO` · `biosignals` · `telemetry`
+
+</div>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:0a0a1a,100:000000&height=2&section=footer" width="100%" />

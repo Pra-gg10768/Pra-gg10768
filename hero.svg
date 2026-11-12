@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Pragnyan Satapathy: ML for cybersecurity, explainable AI, computer vision" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1320"/>
+      <stop offset="0.55" stop-color="#0f2233"/>
+      <stop offset="1" stop-color="#14344a"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#4fc3f7" stroke-opacity="0.07"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#4fc3f7" stop-opacity="0"/>
+      <stop offset="1" stop-color="#4fc3f7" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#7fd8ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="900" height="300" rx="16"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, Menlo, monospace; }
+
+    .rise  { animation: rise 1.2s ease-out both; }
+    .rise2 { animation: rise 1.2s ease-out .25s both; }
+    .rise3 { animation: rise 1.2s ease-out .5s both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+    .edge { stroke: #4fc3f7; stroke-opacity: .45; stroke-width: 1.2; stroke-dasharray: 3 7; animation: flow 2s linear infinite; }
+    .bad  { stroke: #ff5252; stroke-opacity: .85; stroke-width: 1.6; animation-duration: .9s; }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+
+    .node { fill: #4fc3f7; animation: blink 3s ease-in-out infinite; }
+    .n2 { animation-delay: .5s; } .n3 { animation-delay: 1s; } .n4 { animation-delay: 1.5s; }
+    .n5 { animation-delay: 2s; } .n7 { animation-delay: 2.5s; }
+    @keyframes blink { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+
+    .alert { fill: #ff5252; }
+    .ring  { fill: none; stroke: #ff5252; stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: ping 1.8s ease-out infinite; }
+    .ring2 { animation-delay: .9s; }
+    @keyframes ping { from { transform: scale(1); opacity: .9; } to { transform: scale(4.5); opacity: 0; } }
+    .tag { fill: #ff8a80; font-size: 9px; letter-spacing: 1.5px; animation: tagblink 1.8s steps(2,start) infinite; }
+    @keyframes tagblink { 50% { opacity: .15; } }
+
+    .sweep { animation: sweep 5s linear infinite; }
+    @keyframes sweep { from { transform: translateX(0); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } to { transform: translateX(300px); opacity: 0; } }
+
+    .line { opacity: 0; animation: cycle 12s infinite; }
+    .l2 { animation-delay: 3s; } .l3 { animation-delay: 6s; } .l4 { animation-delay: 9s; }
+    @keyframes cycle { 0% { opacity: 0; transform: translateX(-8px); } 3% { opacity: 1; transform: none; } 22% { opacity: 1; } 25% { opacity: 0; } 100% { opacity: 0; } }
+    .cursor { animation: tagblink 1s steps(2,start) infinite; fill: #4fc3f7; }
+
+    .ecg-base  { fill: none; stroke: #4fc3f7; stroke-opacity: .18; stroke-width: 1.5; }
+    .ecg-pulse { fill: none; stroke: #7fffd4; stroke-width: 2.2; stroke-linecap: round; stroke-dasharray: 90 910; animation: beat 4s linear infinite; }
+    @keyframes beat { from { stroke-dashoffset: 90; } to { stroke-dashoffset: -910; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="300" fill="url(#bg)"/>
+    <rect width="900" height="300" fill="url(#grid)"/>
+
+    <!-- network graph (right side) -->
+    <g>
+      <g fill="none">
+        <line class="edge" x1="600" y1="60"  x2="680" y2="40"/>
+        <line class="edge" x1="680" y1="40"  x2="770" y2="70"/>
+        <line class="edge" x1="770" y1="70"  x2="840" y2="50"/>
+        <line class="edge" x1="600" y1="60"  x2="640" y2="120"/>
+        <line class="edge" x1="680" y1="40"  x2="640" y2="120"/>
+        <line class="edge" x1="680" y1="40"  x2="730" y2="130"/>
+        <line class="edge" x1="770" y1="70"  x2="810" y2="140"/>
+        <line class="edge" x1="840" y1="50"  x2="810" y2="140"/>
+        <line class="edge" x1="640" y1="120" x2="700" y2="185"/>
+        <line class="edge" x1="810" y1="140" x2="700" y2="185"/>
+        <line class="edge bad" x1="770" y1="70"  x2="730" y2="130"/>
+        <line class="edge bad" x1="640" y1="120" x2="730" y2="130"/>
+        <line class="edge bad" x1="730" y1="130" x2="700" y2="185"/>
+      </g>
+      <circle class="node"    cx="600" cy="60"  r="5"/>
+      <circle class="node n2" cx="680" cy="40"  r="5"/>
+      <circle class="node n3" cx="770" cy="70"  r="5"/>
+      <circle class="node n4" cx="840" cy="50"  r="5"/>
+      <circle class="node n5" cx="640" cy="120" r="5"/>
+      <circle class="node n7" cx="810" cy="140" r="5"/>
+      <circle class="node n3" cx="700" cy="185" r="5"/>
+      <circle class="ring"          cx="730" cy="130" r="6"/>
+      <circle class="ring ring2"    cx="730" cy="130" r="6"/>
+      <circle class="alert" cx="730" cy="130" r="6.5" filter="url(#glow)"/>
+      <text class="tag mono" x="742" y="150">ANOMALY</text>
+      <rect class="sweep" x="540" y="20" width="60" height="190" fill="url(#scan)"/>
+    </g>
+
+    <!-- text (left side) -->
+    <text class="rise" x="40" y="98" font-size="46" font-weight="700" fill="url(#title)">Pragnyan Satapathy</text>
+    <text class="rise2" x="40" y="132" font-size="17" fill="#b0bec5">ML for Cybersecurity · Explainable AI · Computer Vision</text>
+    <text class="rise3 mono" x="40" y="156" font-size="13" fill="#78909c">M.S. CSE @ NSYSU · Kaohsiung, Taiwan</text>
+
+    <g class="mono" font-size="15" fill="#4fc3f7">
+      <text class="line"    x="40" y="196">&gt; AI-based intrusion detection + SHAP explainability</text>
+      <text class="line l2" x="40" y="196">&gt; Deepfake detection via multi-ROI rPPG · 0.955 AUC</text>
+      <text class="line l3" x="40" y="196">&gt; YOLO video analytics · published 2025</text>
+      <text class="line l4" x="40" y="196">&gt; Open to winter 2026-27 internships</text>
+    </g>
+
+    <!-- heartbeat / rPPG pulse -->
+    <path class="ecg-base"  d="M0,262 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l60,0"/>
+    <path class="ecg-pulse" pathLength="1000" filter="url(#glow)" d="M0,262 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l40,0 l8,-8 l8,8 l16,0 l6,8 l8,-52 l8,60 l8,-16 l38,0 l60,0"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="299" rx="16" fill="none" stroke="#4fc3f7" stroke-opacity=".25"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3ZGQ5ZTYwNy05MjQ3LTRjNzAtOWFmZi1kOWMwYThkNzRhNTkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLEGq8+1OImnBpveixG7tAAAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0ZjhjYmYxNy0xYTE5LTRlOGEtODZjMy0yOTlkMGMxNjlmNjZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoQ9nzxMkoYPI+EBdph9znkQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggeC8wmWj4hGXrSWXpkMDvpoMm5ND7nt1Z05dBae0e8gukZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaPSXBqwmhl5AEuYSufEVEcoAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIHF0GLuKx5J15AYUAjiWFm//+voDUyhdiMGMUt42IrO3ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GR0qZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjdkZDllNjA3LTkyNDctNGM3MC05YWZmLWQ5YzBhOGQ3NGE1OS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjliYTM4YzI3LTg3ZTgtNGEyNC1iZGM4LTc3ODZkYTMxMjcxM3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB4LzCZaPiEZetJZemQwO+mgybk0Pue3VnTl0Fp7R7yC6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggborOXYAyT3YT+s+xc+gwfSbGqYwzNx8YKCh9WxDNLrmiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg/7p56XG4tSOUpb0yXIz4WW52j3Q7kCqgTLYwu4bxqfF0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQP8AVzCbQ/SsxGgLEbNffZGNLhSwubH5Jbo1EGjMt4NSujfVx+nNK/l4NL4GfDgNnuSCVQLzR0HZA0XogOxHqmQ=</c2pa:manifest></metadata></svg>
